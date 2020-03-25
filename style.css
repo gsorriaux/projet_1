@@ -36,6 +36,9 @@ img{
   border: 10px solid white;
   margin-top: 40px;
 }
+hr{
+  margin-right: 50px;
+}
 i{
   display: inline-block;
 }
