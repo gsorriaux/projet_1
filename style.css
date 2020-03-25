@@ -1,0 +1,99 @@
+main{
+}
+.info{
+  background-color: orange;
+  width: 30%;
+  height: 1400px;
+  display: inline-block;
+  vertical-align: top;
+}
+.content{
+  background-color: yellow;
+  width: 69%;
+  height: 1400px;
+  display: inline-block;
+}
+div{
+  border: solid 1px green;
+  height: 50px;
+}
+.photo{
+  height: 300px;
+  text-align: center;
+}
+.skills{
+  height: 500px;
+  margin-left: 50px;
+}
+.experiences, .education{
+  height: 350px;
+  margin-left: 50px;
+}
+img{
+  height: 200px;
+  width: 200px;
+  filter: grayscale(100%);
+  border-radius: 50%;
+  border: 10px solid white;
+  margin-top: 40px;
+}
+.sub-contact, .sub-skill{
+  border: solid 1px white;
+}
+i{
+  display: inline-block;
+}
+.fa-star{
+  margin-right: 10px;
+}
+.info-contact{
+  display: inline-block;
+  color: white;
+  margin-left: 10px;
+}
+.info-skill{
+  display: inline-block;
+  color: white;
+}
+.contact, .language, .reference{
+  height: 300px;
+  margin-left: 50px;
+}
+.white, h2, hr, .sub-language{
+  color: white;
+}
+.blue{
+  color: blue;
+}
+.stars{
+  text-align: right;
+  display: inline-block;
+  height: 25px;
+}
+.name{
+  height: 300px;
+}
+h1 > span, h4{
+  color: #11a9f3;
+}
+h1{
+  font-size: 50px;
+  margin-top: 115px;
+  margin-bottom: 5px;
+}
+h3{
+  margin-top: 0px;
+}
+h1, h3{
+  margin-left: 50px;
+}
+.black{
+  color: black;
+  display: inline-block;
+}
+.sub-experiences > .fas, .sub-education > .fas, .sub-reference > .fas{
+  color: white;
+  font-size: 20px;
+  background-color: #11a9f3;
+  border-radius: 50%;
+}
