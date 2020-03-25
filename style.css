@@ -1,20 +1,19 @@
 main{
+  font-family: 'Roboto', sans-serif;
 }
 .info{
-  background-color: orange;
+  background-color: #4a4a4c;
   width: 30%;
   height: 1400px;
   display: inline-block;
   vertical-align: top;
 }
 .content{
-  background-color: yellow;
   width: 69%;
   height: 1400px;
   display: inline-block;
 }
 div{
-  border: solid 1px green;
   height: 50px;
 }
 .photo{
@@ -37,9 +36,6 @@ img{
   border: 10px solid white;
   margin-top: 40px;
 }
-.sub-contact, .sub-skill{
-  border: solid 1px white;
-}
 i{
   display: inline-block;
 }
@@ -54,6 +50,7 @@ i{
 .info-skill{
   display: inline-block;
   color: white;
+  width: 350px;
 }
 .contact, .language, .reference{
   height: 300px;
