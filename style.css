@@ -1,20 +1,47 @@
 main{
   font-family: 'Roboto', sans-serif;
 }
-.info{
-  background-color: #4a4a4c;
-  width: 30%;
-  height: 1400px;
-  display: inline-block;
-  vertical-align: top;
+h1{
+  font-size: 50px;
+  margin-bottom: 5px;
+  margin-left: 50px;
+  margin-top: 115px;
 }
-.content{
-  width: 69%;
-  height: 1400px;
-  display: inline-block;
+h3{
+  margin-left: 50px;
+  margin-top: 0;
 }
 div{
   height: 50px;
+}
+hr{
+  margin-right: 50px;
+}
+i{
+  display: inline-block;
+}
+h1 > span, h4{
+  color: #11a9f3;
+}
+img{
+  border: 10px solid white;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  height: 200px;
+  margin-top: 40px;
+  width: 200px;
+}
+.info{
+  background-color: #4a4a4c;
+  display: inline-block;
+  height: 1400px;
+  vertical-align: top;
+  width: 30%;
+}
+.content{
+  display: inline-block;
+  height: 1400px;
+  width: 69%;
 }
 .photo{
   height: 300px;
@@ -24,36 +51,25 @@ div{
   height: 500px;
   margin-left: 50px;
 }
+.education, .reference{
+  margin-top: 20px;
+}
 .experiences, .education{
   height: 350px;
   margin-left: 50px;
-}
-img{
-  height: 200px;
-  width: 200px;
-  filter: grayscale(100%);
-  border-radius: 50%;
-  border: 10px solid white;
-  margin-top: 40px;
-}
-hr{
-  margin-right: 50px;
-}
-i{
-  display: inline-block;
 }
 .fa-star{
   margin-right: 10px;
 }
 .info-contact{
-  display: inline-block;
   color: white;
+  display: inline-block;
   margin-left: 10px;
 }
 .info-skill{
-  display: inline-block;
   color: white;
-  width: 350px;
+  display: inline-block;
+  width: 320px;
 }
 .contact, .language, .reference{
   height: 300px;
@@ -63,29 +79,15 @@ i{
   color: white;
 }
 .blue{
-  color: blue;
+  color: #11a9f3;
 }
 .stars{
-  text-align: right;
   display: inline-block;
   height: 25px;
+  text-align: right;
 }
 .name{
   height: 300px;
-}
-h1 > span, h4{
-  color: #11a9f3;
-}
-h1{
-  font-size: 50px;
-  margin-top: 115px;
-  margin-bottom: 5px;
-}
-h3{
-  margin-top: 0px;
-}
-h1, h3{
-  margin-left: 50px;
 }
 .black{
   color: black;
@@ -94,6 +96,20 @@ h1, h3{
 .sub-experiences > .fas, .sub-education > .fas, .sub-reference > .fas{
   color: white;
   font-size: 20px;
+}
+.sub-contact > .blue{
+  background-color: white;
+  padding: 2px;
+}
+.sub-contact > .white{
+  background-color: #11a9f3;
+  padding: 2px;
+}
+.back{
+  border-radius: 20% 0 20% 0;
+}
+.round{
   background-color: #11a9f3;
   border-radius: 50%;
+  padding: 5px;
 }
